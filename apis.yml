@@ -1,7 +1,31 @@
 aid: section
-name: Section
-description: Section is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/section.png
+name: Section AI
+description: >-
+  Section AI (formerly Section School) is an enterprise AI training and adoption
+  platform that helps large organizations turn AI investment into measurable
+  workforce transformation and ROI. Its two products are Section HQ, a command
+  center for Heads of AI to track usage, measure "AI fitness," surface real-time
+  insights, and manage transformation roadmaps; and Section Coach, personalized
+  AI coaching that delivers skills training, certification programs, and workflow
+  identification to employees and teams. Section also runs AI transformation
+  planning, leadership coaching, AI strategy support, workflow automation, and
+  agentic AI workshops for enterprises of 100+ employees, with customers
+  including Johnson & Johnson, Nike, Okta, Unilever, Mercer, and Publicis. Backed
+  by General Catalyst and led by founder Greg Shove. As of this profile the
+  company exposes a web/app product surface (app.sectionai.com) but publishes no
+  public developer API, OpenAPI, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/section/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Training
+- Enterprise Software
+- Learning and Development
+- Upskilling
+- Workforce Transformation
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/section-domain-security.yml
+- type: Website
+  url: https://www.sectionai.com/
+- type: Blog
+  url: https://www.sectionai.com/blog
+- type: Support
+  url: https://help.sectionai.com
+- type: SignUp
+  url: https://www.sectionai.com/book-a-demo
+- type: Login
+  url: https://app.sectionai.com
+- type: TermsOfService
+  url: https://www.sectionai.com/terms
+- type: PrivacyPolicy
+  url: https://www.sectionai.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
