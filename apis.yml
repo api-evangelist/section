@@ -67,6 +67,10 @@ tags_raw:
 - SaaS
 apis: []
 common:
+- type: Pricing
+  url: https://www.sectionai.com/pricing
+- type: Plans
+  url: plans/section-plans-pricing.yml
 - type: DomainSecurity
   url: security/section-domain-security.yml
 - type: Website
