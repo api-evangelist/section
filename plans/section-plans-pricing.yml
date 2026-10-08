@@ -77,3 +77,86 @@ plans:
   included_quota: Custom learning pathways, admin dashboard, LMS integration
 rate_limit_statements:
 - Access to 3 lesson videos per month
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  - subscription
+  units:
+  - seat
+  plans:
+  - name: AI Academy Basic
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AI Academy On Demand
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: AI Academy Unlimited
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: AI Academy for Small Teams
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - none
+  - name: AI Academy for Large Teams
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AI Transformation Services
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Premium
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: AI Transformation for Small Teams
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AI Transformation for Large Teams
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: AI Academy for Teams
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
