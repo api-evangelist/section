@@ -1,0 +1,79 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.sectionai.com/pricing
+sources:
+- https://www.sectionai.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: AI Academy On Demand
+published: true
+note: Page appears to contain multiple duplicated/overlapping pricing sections (individuals and teams
+  tabs, possibly different site versions). No API pricing; this is AI training/membership pricing.
+plan_count: 10
+currency: USD
+plans:
+- name: AI Academy Basic
+  price_text: Free
+  period: none
+  included_quota: Access to 3 lesson videos per month; Access to full courses; Professional Slack community;
+    Earn certificates
+- name: AI Academy On Demand
+  price_text: $41 / month
+  price: 41
+  currency: USD
+  period: month
+  unit: membership
+  included_quota: Billed annually; unlimited access to full catalog of on-demand courses; Slack community;
+    ProfAI
+- name: AI Academy Unlimited
+  price_text: $82 / month
+  price: 82
+  currency: USD
+  period: month
+  unit: membership
+  included_quota: Billed annually; unlimited live and on-demand courses; monthly AI Office Hours; ProfAI
+- name: AI Academy for Small Teams
+  price_text: $750 / seat
+  price: 750
+  currency: USD
+  period: none
+  unit: seat
+  included_quota: Teams of <100; on-demand catalog, Slack community, certificates, office hours, ProfAI
+- name: AI Academy for Large Teams
+  price_text: Schedule a call for pricing
+  period: none
+  included_quota: Teams of 100+; admin dashboard, dedicated engagement manager, custom sessions, LMS integration
+- name: AI Transformation Services
+  price_text: Schedule a call for pricing
+  period: none
+  included_quota: AI readiness assessment, strategy, workflow redesign, upskilling
+- name: Premium
+  price_text: $62.50 / month
+  price: 62.5
+  currency: USD
+  period: month
+  unit: membership
+  included_quota: Billed annually; unlimited coaching, use cases, live and on-demand courses, office hours
+- name: AI Transformation for Small Teams
+  price_text: Schedule a call for pricing
+  period: none
+  included_quota: For <1000-person companies
+- name: AI Transformation for Large Teams
+  price_text: Schedule a call for pricing
+  period: none
+  included_quota: For >1000-person companies
+- name: AI Academy for Teams
+  price_text: Contact us for pricing
+  period: none
+  included_quota: Custom learning pathways, admin dashboard, LMS integration
+rate_limit_statements:
+- Access to 3 lesson videos per month
